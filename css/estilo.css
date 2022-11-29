@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    background-image: -o-linear-gradient(#8B0000, black, crimson);
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
