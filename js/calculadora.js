@@ -8,8 +8,8 @@ function limpar(){
 }
 
 function voltar(){
-    var valor = document.getElementById('resultado').innerHTML;
-    document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length 1);
+    var resultado = document.getElementById('resultado').innerHTML;
+    document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1);
 }
 
 function calcular(){
